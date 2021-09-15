@@ -1,3 +1,7 @@
+:root {
+  --color-terminal :  black;
+  --borde-redondo :  4 px ;
+}
 
 body{ /*todo el cuerpo, fondo de pantalla*/
     width: 100%;
@@ -11,47 +15,48 @@ body{ /*todo el cuerpo, fondo de pantalla*/
     margin:auto;
     text-align: center;
     background-color: #fdfbf7ee;
-    background position: center;
+    background-position: center;
     width: 1000px;
     height: 800px;
   }
 
       .conteiner h1{
         font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
       }
-      img {
-        display:block;
-        margin:auto; 
-        width: 100px; 
-        height: 100px;
+      .imagen2 {
+        display: block;
+        width: 600px;
+        height: auto;
+        margin: auto;
+
+      } /*REVISAR*/
+      .button-home {
+         display: inline-block;
+         padding: 15px 30px;
+         color:#fff;
+         letter-spacing: 4px; /*espacio entre letras*/
+         font-size: 24px ;
+         text-decoration: none;
+         overflow: hidden;
+         transition: 0.2s;
+      }
+      .button-home:hover{ /*nos sirve para hacer transciciones*/
+        background: #a945c7;
+        box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+        transition-delay:is
       }
   .rellenar{ /*cuadro blanco de la segunda pagina*/
     display:block;
     margin:auto;
     background-color: #f4fafa;
-    width: 1000px;
+    width: 400px;
     height: 800px;
     padding: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
       h3 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 36px;
-        text-align: center;
-      }
-      .barras {
-        width: 700px;
-        background: rgb(100, 195, 226);
-        padding: 10px;
-        border-radius: 4px;
-        margin-bottom: 100px;
-        border: 1px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 30px;
-      }
-      .boton{
-        display:  block;
-        margin: auto;
-        width: 100px;
-        background:#d80a0a
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+        
       }
