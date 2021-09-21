@@ -10,6 +10,7 @@ const cipher = {
      
       if(string){ //para asegurarnos que lo que se ingrese sean solo letras//
           for(let i =0; i<cadena.length; i++){
+   
             if (letras.indexOf(cadena[i])!== -1){
                 let posicion = ((letras.indexOf(cadena[i])+offset)%26);
                 resultado += letras[posicion]; 
