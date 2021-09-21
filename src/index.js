@@ -8,15 +8,12 @@ document.getElementById("message").addEventListener("keyup", function name() {
 document.getElementById("encode").addEventListener("click", function valores() {
     const string = document.getElementById("message").value;
     const offset = document.getElementById("offset").value;
-    document.getElementById("message2").value = cipher.encode(string,offset);
+    document.getElementById("message2").value = cipher.encode(offset,string);
 }, true);  
 
 //recoger datos para descifrar//
 document.getElementById("decode").addEventListener("click",function valores2() {
     const string = document.getElementById("message2").value;
     const offset = document.getElementById("offset").value;
-    document.getElementById("message2").value = cipher.decode(string,offset);
+    document.getElementById("message2").value = cipher.decode(offset,string);
 }, true);
-
-
-

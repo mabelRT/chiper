@@ -7,28 +7,43 @@
   </head>
   <body>
     <div id="root">
-    <div class= "conteiner"> <!--contenedor principal-->
+      
       <div class = "title"> <!--el titulo-->
-        <br>
         <h1>CREA CONTRASEÑAS</h1>
-      </div>
-      <div class = "paragraph"> <!--el subtitulo-->
         <h2>Crea  contraseñas seguras y facil de recordar usando el cifrado cesar</h2>
       </div>
-      <div class = "information"> <!--parrafo de informcaion-->
-        <p> Para crear tu contraseña usaremos el <a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">cifrado cesar</a>. Sustituiremos las letras del texto que elijas por otras que se encuentren en un número fijo de posiciones más adelante en el alfabeto.
-        </p>
+
+    <div class= "conteiner"> <!--contenedor principal-->
+      
+      <div class= "datos">
+         <div class = "pregunta">¿Olvidas frecuentemente tu contraseña? o quizas ¿tienes la misma contraseña para todo?.<br>
+           Si es asi viniste al lugar indicado, lo unico que debes hacer es inserta la palabra o el mensaje que te sea facil de recordar, seleccionas un numero y tendras una nueva contraseña que de seguro no olvidaras.
+         </div>
+         <img src="imagenes/pensando.png">
+         <br>
+         <p> Para crear tu contraseña usaremos el <a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">cifrado cesar</a>. Sustituiremos las letras del texto que elijas por otras que se encuentren en un número fijo de posiciones más adelante en el alfabeto.
+          </p>
       </div>
-        <div class = "imagen2">
-          <img src="imagenes/candado im.png">
-        </div>
-        <footer class = "start">
-        <button class ="button-home">
-          <a href = "index2.html">EMPECEMOS</a> <!--direccionando la pagina a otra-->
-        </button>
-      </footer>
+
+    <div class = "cuadro">
+      <div class="tabla">
+      <h1>CIFRA TU CONTRASEÑA</h1>
+      <br>
+      <p><input type="text" id="message" placeholder="INSERTA UN MENSAJE"/></p> <!--input sirve para hacer lso cuadros para rellenar-->
+      <br>
+      <p><input type="number" id = "offset" size= "4" placeholder="INSERTA UNA CANTIDAD"/></p>
+      <br>
+      <p><button type="button" id="encode">cifrar</button> <!--button sirve para hacer botones-->
+         <button type="button" id="decode">descifrar</button>
+      </p>
+      <br>
+      <h3>¡TU NUEVA CONTRASEÑA!</h3>
+      <p><input type="text" id="message2"/></p>
+      </div>
+      </div>
     </div>
     </div>
+  
     <script src="index.js" type="module"></script> 
     
   </body>

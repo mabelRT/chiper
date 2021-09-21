@@ -1,62 +1,78 @@
+
 :root {
   --color-terminal :  black;
   --borde-redondo :  4 px ;
 }
-
-body{ /*todo el cuerpo, fondo de pantalla*/
-    width: 100%;
-    height: 100%;
-    color:rgb(17, 20, 20);
-    background: linear-gradient(to top, rgb(226, 56, 107) 10%, rgb(24, 210, 216) 90%);
-    background-repeat: no-repeat; /*para que no se repita el fondo*/
+*{
+  margin:0;
+  padding:0;
 }
-  .conteiner{ /*cuadro blanco de la primera pagina*/
-    display:block;
-    margin:auto;
-    text-align: center;
-    background-color: #fdfbf7ee;
-    background-position: center;
-    width: 1000px;
-    height: 800px;
-  }
+body{ /*todo el cuerpo, fondo de pantalla*/
+ 
+    background: linear-gradient(to top, rgb(247, 80, 172) 10%, rgb(87, 240, 240) 90%);
+    background-repeat: no-repeat; /*para que no se repita el fondo*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title {
+  font-size: 20px;
+  text-align: center;
+  padding:20px 0;
+  color: #fff;
+  text-shadow: -2px -2px 1px  #000000, 2px 2px 1px #000000, -2px 2px 1px #000000, 2px -2px 1px #000000;
+}
+.conteiner{
+  display: flex;
+  flex-direction: row; /*oredenar las cosas*/
+  flex-flow: row wrap; /*se pueden hacer ordenar y o poner en linea o debajo juntass*/
+  flex-wrap: wrap; /*para poner las cajitas debajo o en line*/
+  padding: 25px;
+  justify-content: space-between;
+}
+.contenedor div{
+ 
+  margin: 10px;
+  text-align: center;
+  border: 2px solid black;
 
-      .conteiner h1{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        text-align: center;
-      }
-      .imagen2 {
-        display: block;
-        width: 600px;
-        height: auto;
-        margin: auto;
+}
+.datos{
+  
+  font-size: 23px;
+  width:700px;
+  height: 530px;
+  text-align: justify;
+  border: #000000;
+}
+.pregunta {
+ font-size: 18px;
+ background-color: blanchedalmond;
+ padding: 12px;
+ font-family: cursive;
 
-      } /*REVISAR*/
-      .button-home {
-         display: inline-block;
-         padding: 15px 30px;
-         color:#fff;
-         letter-spacing: 4px; /*espacio entre letras*/
-         font-size: 24px ;
-         text-decoration: none;
-         overflow: hidden;
-         transition: 0.2s;
-      }
-      .button-home:hover{ /*nos sirve para hacer transciciones*/
-        background: #a945c7;
-        box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
-        transition-delay:is
-      }
-  .rellenar{ /*cuadro blanco de la segunda pagina*/
-    display:block;
-    margin:auto;
-    background-color: #f4fafa;
-    width: 400px;
-    height: 800px;
-    padding: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-      h3 {
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 18px;
-        
-      }
+}
+.datos img{
+  width: 300px;
+  float:left;
+}
+
+.cuadro{
+  background-image: url("imagenes/pngwing.com\ \(2\).png");
+  background-size: cover;
+  font-size: 15px; 
+  width: 720px;
+  height: 540px;
+  border: black;
+
+  margin-top: -15px ;
+}
+.tabla{
+  text-align: center;
+  padding-top: 70px;
+  
+}
+.tabla input{
+  width: 300px;
+  height: 30px;
+  text-align: center;
+
+}
