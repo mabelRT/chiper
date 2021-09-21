@@ -23,9 +23,6 @@ const cipher = {
   },
 //descifrar//
     decode (offset, string) {
-      if(offset===null|| offset === 0){
-        throw new TypeError();
-      }
               if (!string)
               return"";
                const letras= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

@@ -1,6 +1,6 @@
-: debe explicar cómo descargar, instalar y ejecutar la aplicación así como una introducción a la aplicación, su funcionalidad y decisiones de diseño que tomaron.
+: debe explicar cómo descargar, instalar y ejecutar la aplicación así , su funcionalidad y decisiones de diseño que tomaron.
 CREA CONTRASEÑAS SEGURAS
-Acá va un párrafo que describa lo que es el proyecto
+Este proyecto esta orientado al cifrado de mensajes para elaborar contraseñas, seguras y faciles de recordar. Muchas veces olvidamos nuestras contraseñas porque ponemos codigos seguros que a su vez son dificiles de recordar, asi que normalmente los anotamos en sitios o simplemente usamos la misma contraseña para todas nuestras cuentas con el fin de no olvidarlas. Esto expone nuestras cuentas al hackeo o otro tipo de riesgos. Es ahi donde entra en juego el proyecto "CREA CONTRASEÑAS SEGURAS".
 
 Comenzando 🚀
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
