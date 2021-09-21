@@ -2,7 +2,10 @@ const cipher = {
 
 //cifrar//
     encode (offset,string) {
-          
+      if(offset === null || offset === 0){
+        throw new TypeError();
+      } 
+      offset = parseInt(offset);  
       let resultado = "";
       const cadena =  string.split("");
       const letras=" ABCDEFGHIJKLMNOPQRSTUVWXYZ";   //cadena para las letras//
@@ -23,7 +26,11 @@ const cipher = {
       }
   },
 //descifrar//
-    decode (offset, string) {
+    decode (offset, string)  {
+      if(offset === null || offset === 0){
+        throw new TypeError();
+      }
+      offset = parseInt(offset);
               if (!string)
               return"";
                const letras= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
