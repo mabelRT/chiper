@@ -9,7 +9,7 @@
 }
 body{ /*todo el cuerpo, fondo de pantalla*/
  
-    background: linear-gradient(to top, rgb(247, 80, 172) 10%, rgb(87, 240, 240) 90%);
+    background: linear-gradient(to top, rgb(103, 228, 134) 10%, rgb(66, 80, 80) 90%);
     background-repeat: no-repeat; /*para que no se repita el fondo*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -18,15 +18,15 @@ body{ /*todo el cuerpo, fondo de pantalla*/
   text-align: center;
   padding:20px 0;
   color: #fff;
-  text-shadow: -2px -2px 1px  #000000, 2px 2px 1px #000000, -2px 2px 1px #000000, 2px -2px 1px #000000;
+  text-shadow: -2px -2px 1px  #000000, 2px 2px 1px #000000, -2px 2px 1px #000000, 2px -2px 1px #000000; /*borde de las letras*/
 }
 .conteiner{
   display: flex;
-  flex-direction: row; /*oredenar las cosas*/
-  flex-flow: row wrap; /*se pueden hacer ordenar y o poner en linea o debajo juntass*/
+  flex-direction: row; /*la direccion del texto se presenta en una linea*/
+  flex-flow: row wrap; /*se pueden hacer ordenar y o poner en linea o debajo juntass*/ /*no es necesario ponerlo*/
   flex-wrap: wrap; /*para poner las cajitas debajo o en line*/
   padding: 25px;
-  justify-content: space-between;
+  justify-content: space-between; /*distribuir items a espacios iguales*/
 }
 .contenedor div{
  
@@ -57,17 +57,16 @@ body{ /*todo el cuerpo, fondo de pantalla*/
 
 .cuadro{
   background-image: url("imagenes/pngwing.com\ \(2\).png");
-  background-size: cover;
+  background-size: cover; /*especifica el tamaño de fondo*/
   font-size: 15px; 
   width: 720px;
   height: 540px;
   border: black;
-
-  margin-top: -15px ;
+  margin-top: -15px ; /*margen superior de un elemento*/
 }
 .tabla{
   text-align: center;
-  padding-top: 70px;
+  padding-top: 70px; /*espacio superior entre el margen y elemento*/
   
 }
 .tabla input{

@@ -3,9 +3,11 @@ import cipher from './cipher.js';
 document.getElementById("message").addEventListener("keyup", function name() {
     this.value = this.value.toUpperCase();
 }, true);
+
 //recoger datos para cifrar//
 
 document.getElementById("encode").addEventListener("click", function valores() {
+  //datos del evento de  addEventListener//
     const string = document.getElementById("message").value;
     const offset = document.getElementById("offset").value;
     document.getElementById("message2").value = cipher.encode(offset,string);
