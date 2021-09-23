@@ -7,12 +7,12 @@ const cipher = {
       throw new TypeError();
     }
 
-    let resultado = "";   
+  
     let cifra = parseInt(offset); /* decimales*/
 
     for (let i = 0; i < string.length; i++) { /*iterando*/
       let codigoAscii = string.charCodeAt(i); /*devolvemos el valor segun el indice(i)*/ 
-
+      let resultado = "";   
       if (codigoAscii >= 65 && codigoAscii <= 90) { /*definimos el alcance de let codigo ascii del 65 al 90 que representa el alfabeto de A-Z*/
         resultado += String.fromCharCode( /*devolve la cadena */
           ((codigoAscii - 65 + cifra) % 26) + 65

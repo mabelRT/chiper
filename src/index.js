@@ -2,7 +2,7 @@ import cipher from './cipher.js';
 //convertir las leras en mayusculas//
 document.getElementById("message").addEventListener("keyup", function name() {
     this.value = this.value.toUpperCase();
-}, true);
+}, false);
 
 //recoger datos para cifrar//
 
