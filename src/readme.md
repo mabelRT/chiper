@@ -24,6 +24,7 @@ Si quieres saber mas sobre este tipo de cifrado ingresa aqui: https://es.wikiped
 ### DISEÑO
 Este es el prototipo del proyecto hecgo en Figma:
 https://www.figma.com/file/xm4BgvK5PfPLvbh0dL4SVC/Untitled
+![Screenshot](Captura de pantalla (21).png)
 El fin del diseño es que sea simple, facil de entender y usar. El proyeto tuvo muchas modificaciones en el diseño para que el usuario tenga la informaion a su alcance e interactue con la aplicacion.
 ## LINK DEL PROYECTO🛠️
 http://localhost:5000/

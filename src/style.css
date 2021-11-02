@@ -12,7 +12,7 @@ body{ /*todo el cuerpo, fondo de pantalla*/
     background-repeat: no-repeat; /*para que no se repita el fondo*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.title {
+header {
   font-size: 20px;
   text-align: center;
   padding:20px 0;
