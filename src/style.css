@@ -45,6 +45,7 @@ header {
  background-color: blanchedalmond;
  padding: 12px;
  font-family: cursive;
+ border-radius: 20px;
 
 }
 .datos img{
@@ -70,5 +71,22 @@ header {
   width: 300px;
   height: 30px;
   text-align: center;
+  border: none;
+  margin-left: 20px;
+  border-radius: 10px;
 
+}
+.buttonC{
+  background-color: rgb(80, 167, 167);
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+  border-color: none;
+}
+.buttonC:hover{
+  background-color: bisque;
+}
+.text{
+  margin:40px;
 }

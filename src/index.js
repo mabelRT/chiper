@@ -19,3 +19,9 @@ document.getElementById("decode").addEventListener("click",function valores2() {
     const offset = document.getElementById("offset").value;
     document.getElementById("message2").value = cipher.decode(offset,string);
 }, true);
+
+let planetas = ["mercury", "venus", "earth"];
+    for(let i = 0; i<3; i++){
+
+        console.log("hola, soy",planetas[i])
+    }
