@@ -7,10 +7,21 @@
   padding:0;
 }
 body{ /*todo el cuerpo, fondo de pantalla*/
-    display: block;
+    
     background: linear-gradient(to top, rgb(103, 228, 134) 10%, rgb(66, 80, 80) 90%);
     background-repeat: no-repeat; /*para que no se repita el fondo*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conteiner{
+  display:flex;
+  flex-direction: column;
+}
+.contenedor div{
+   
+  margin: 2rem;
+  text-align: center;
+  border: 1rem solid black;
+
 }
 header {
   font-size: 20px;
@@ -20,73 +31,83 @@ header {
   text-shadow: -2px -2px 1px  #000000, 2px 2px 1px #000000, -2px 2px 1px #000000, 2px -2px 1px #000000; /*borde de las letras*/
 }
 .conteiner{
-  display: flex;
-  flex-flow: row wrap; /*se pueden hacer ordenar y o poner en linea o debajo juntass*/ /*no es necesario ponerlo*/
-  padding: 25px;
-  justify-content: space-between; /*distribuir items a espacios iguales*/
-}
-.contenedor div{
- 
-  margin: 10px;
-  text-align: center;
-  border: 2px solid black;
-
+  justify-content: center;
 }
 .datos{
-  
-  font-size: 23px;
-  width:700px;
-  height: 530px;
-  text-align: justify;
-  border: #000000;
+ justify-content: center;
+ text-align: center;
 }
 .pregunta {
- font-size: 18px;
- background-color: blanchedalmond;
- padding: 12px;
- font-family: cursive;
- border-radius: 20px;
+  font-size: 1rem;
+  background-color: blanchedalmond;
+  padding: 0.5rem;
+  font-family: cursive;
+  border-radius: 1rem;
+ 
+ }
+@media (min-width: 768px) {
+ 
+  .conteiner{
 
-}
-.datos img{
-  width: 300px;
-  float:left;
-}
-
-.cuadro{
-  background-image: url("imagenes/pngwing.com\ \(2\).png");
-  background-size: cover; /*especifica el tamaño de fondo*/
-  font-size: 15px; 
-  width: 720px;
-  height: 540px;
-  border: black;
-  margin-top: -15px ; /*margen superior de un elemento*/
-}
-.tabla{
-  text-align: center;
-  padding-top: 70px; /*espacio superior entre el margen y elemento*/
+    flex-flow: row wrap; /*se pueden hacer ordenar y o poner en linea o debajo juntass*/ /*no es necesario ponerlo*/
+    padding: 25px;
+    justify-content: space-between; /*distribuir items a espacios iguales*/
+  }
   
-}
-.tabla input{
-  width: 300px;
-  height: 30px;
-  text-align: center;
-  border: none;
-  margin-left: 20px;
-  border-radius: 10px;
-
-}
-.buttonC{
-  background-color: rgb(80, 167, 167);
-  width: 90px;
-  height: 30px;
-  border-radius: 10px;
-  margin-left: 10px;
-  border-color: none;
-}
-.buttonC:hover{
-  background-color: bisque;
-}
-.text{
-  margin:40px;
+  .datos{
+    
+    font-size: 23px;
+    width:700px;
+    height: 530px;
+    text-align: justify;
+    border: #000000;
+  }
+  .pregunta {
+   font-size: 18px;
+   padding: 12px;
+   border-radius: 20px;
+  
+  }
+  .datos img{
+    width: 300px;
+    float:left;
+  }
+  
+  .cuadro{
+    background-image: url("imagenes/pngwing.com\ \(2\).png");
+    background-size: cover; /*especifica el tamaño de fondo*/
+    font-size: 15px; 
+    width: 700px;
+    height: 540px;
+    border: black;
+    margin-top: -15px ; /*margen superior de un elemento*/
+  }
+  .tabla{
+    text-align: center;
+    padding-top: 70px; /*espacio superior entre el margen y elemento*/
+    
+  }
+  .tabla input{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    margin-left: 20px;
+    border-radius: 10px;
+  
+  }
+  .buttonC{
+    background-color: rgb(80, 167, 167);
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border-color: none;
+  }
+  .buttonC:hover{
+    background-color: bisque;
+  }
+  .text{
+    margin:40px;
+  }
 }
