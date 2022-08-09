@@ -18,6 +18,7 @@ const cipher = {
         );
       }
 
+      
       else { 
         resultado += string[i] 
       }
