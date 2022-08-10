@@ -30,4 +30,4 @@ https://www.figma.com/file/xm4BgvK5PfPLvbh0dL4SVC/Untitled
 
 El fin del diseño es que sea simple, facil de entender y usar. El proyeto tuvo muchas modificaciones en el diseño para que el usuario tenga la informaion a su alcance e interactue con la aplicacion.
 ## LINK DEL PROYECTO🛠️
-http://localhost:5000/
+https://golden-chebakia-94b8d4.netlify.app/
